@@ -3,12 +3,6 @@ Data Visualization using Matplotlib Seaborn Python
 
 📊 Python Graph Visualization Toolkit
 
-<div align="center">"Python" (https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
-"Matplotlib" (https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge)
-"NetworkX" (https://img.shields.io/badge/NetworkX-Graph%20Analysis-green?style=for-the-badge)
-"SciPy" (https://img.shields.io/badge/SciPy-Scientific%20Computing-blue?style=for-the-badge)
-"License" (https://img.shields.io/badge/License-MIT-red?style=for-the-badge)
-
 🚀 Visualize • Analyze • Explore Complex Data with Python
 
 </div>---
@@ -41,22 +35,6 @@ Matplotlib is one of the most popular Python libraries for creating:
 - Heatmaps
 - 3D Visualizations
 
-Installation
-
-pip install matplotlib
-
-Example
-
-import matplotlib.pyplot as plt
-
-x = [1, 2, 3, 4, 5]
-y = [10, 20, 30, 40, 50]
-
-plt.plot(x, y)
-plt.title("Simple Line Graph")
-plt.xlabel("X Axis")
-plt.ylabel("Y Axis")
-plt.show()
 
 ---
 
@@ -72,35 +50,6 @@ NetworkX is a Python library used for:
 - Path Finding
 - Network Visualization
 - Graph Algorithms
-
-Installation
-
-pip install networkx
-
-Example
-
-import networkx as nx
-import matplotlib.pyplot as plt
-
-G = nx.Graph()
-
-G.add_edge("A", "B")
-G.add_edge("B", "C")
-G.add_edge("C", "D")
-
-nx.draw(G, with_labels=True)
-
-plt.show()
-
-Key Algorithms
-
-Algorithm| Purpose
-BFS| Breadth First Search
-DFS| Depth First Search
-Dijkstra| Shortest Path
-PageRank| Node Ranking
-Centrality| Important Nodes
-Community Detection| Group Analysis
 
 ---
 
@@ -119,66 +68,8 @@ Used for:
 - Numerical Integration
 - Scientific Simulations
 
-Installation
-
-pip install scipy
-
-Example
-
-from scipy import optimize
-
-def f(x):
-    return x**2 + 5
-
-result = optimize.minimize(f, x0=0)
-
-print(result.x)
-
 ---
 
-📂 Project Structure
-
-Python-Graph-Toolkit/
-│
-├── matplotlib/
-│   ├── line_graph.py
-│   ├── bar_graph.py
-│   ├── scatter_plot.py
-│   └── histogram.py
-│
-├── networkx/
-│   ├── graph_creation.py
-│   ├── shortest_path.py
-│   ├── pagerank.py
-│   └── centrality.py
-│
-├── scipy/
-│   ├── optimization.py
-│   ├── statistics.py
-│   ├── linear_algebra.py
-│   └── integration.py
-│
-├── datasets/
-├── requirements.txt
-└── README.md
-
----
-
-⚙️ Installation
-
-Clone the repository:
-
-git clone https://github.com/your-username/python-graph-toolkit.git
-
-Navigate into the project:
-
-cd python-graph-toolkit
-
-Install required libraries:
-
-pip install -r requirements.txt
-
----
 
 📦 Requirements
 
@@ -187,10 +78,6 @@ matplotlib
 networkx
 scipy
 pandas
-
-Install manually:
-
-pip install numpy matplotlib networkx scipy pandas
 
 ---
 
